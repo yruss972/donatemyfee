@@ -1,0 +1,93 @@
+@import url(typoicons.css);
+*, *:after, *:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.social {
+    margin: 0.5em 0;
+    float: left;
+    text-align: center;
+    clear: both;
+}
+
+.social i {
+  cursor: pointer;
+  display: inline-block;
+  -moz-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+.social {
+  background: transparent;
+}
+.social i {
+  color: #34495e;
+  border: 2px solid transparent;
+  border-radius: 0%;
+  padding: 1em;
+  position: relative;
+  background: transparent;
+}
+.social i:hover {
+  top: -2px;
+  border-radius: 50%;
+}
+i:not(:first-child) {
+  margin-left: 1em;
+}
+i.icon-facebook {
+  color: #3b5998;
+  border-bottom-color: #3b5998;
+}
+i.icon-twitter {
+  color: #00a0d1;
+  border-bottom-color: #00a0d1;
+}
+i.icon-googleplus {
+  color: #db4a39;
+  border-bottom-color: #db4a39;
+}
+i.icon-linkedin {
+  color: #007bb6;
+  border-bottom-color: #007bb6;
+}
+i.icon-mail {
+  color: #FFF;
+}
+#feedback { 
+  height: 140px; 
+  width: 140px; 
+  position: fixed; 
+  top: 30%;
+  z-index: 998;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg); 
+  -moz-transform: rotate(-90deg); 
+  -o-transform: rotate(-90deg); 
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+#feedback a { 
+  display: block; 
+  background: #44a544; 
+  height: 30px; 
+  width: 160px; 
+  padding: 2px 8px;
+  color: #fff; 
+  font-family: Arial, sans-serif; 
+  font-size: 17px; 
+  font-weight: bold; 
+  text-decoration: none; 
+  border-bottom: solid 1px #333;
+  border-left: solid 1px #333;
+  border-right: solid 1px #fff;
+}
+
+#feedback a:hover { 
+  background: #06c; 
+}
